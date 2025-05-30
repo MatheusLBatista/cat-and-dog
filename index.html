@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat and Dog API</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div>
+      <label for="select">Choose an animal</label>
+      <select name="select" id="select">
+        <option value="" selected>Select an animal</option>
+        <option value="cat">Cat</option>
+        <option value="dog">Dog</option>
+      </select>
+
+      <button class="btn" id="btn">Generate image</button>
+    </div>
+
+    <div>
+      <img src="" id="image" class="image" alt="Imagem de um gato ou cachorro!">
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
