@@ -8,20 +8,25 @@
   </head>
   <body>
     <div id="app"></div>
-    <div>
-      <label for="select">Choose an animal</label>
-      <select name="select" id="select">
-        <option value="" selected>Select an animal</option>
-        <option value="cat">Cat</option>
-        <option value="dog">Dog</option>
-      </select>
+
+    <div class="container">
+      <div class="controls">
+        <label for="select">Choose an animal</label>
+        <select name="select" id="select">
+          <option value="" selected>Select an animal</option>
+          <option value="cat">Cat</option>
+          <option value="dog">Dog</option>
+        </select>
+      </div>
+
+      <div class="frame">
+        <img src="" id="image" class="image" alt="Imagem de um gato ou cachorro!" />
+      </div>
 
       <button class="btn" id="btn">Generate image</button>
     </div>
 
-    <div>
-      <img src="" id="image" class="image" alt="Imagem de um gato ou cachorro!">
-    </div>
     <script type="module" src="/src/main.ts"></script>
-  </body>
+</body>
+
 </html>
